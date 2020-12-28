@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: payment-service
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+server:
+  port: 8082
+
+axon:
+  kafka:
+    clientid: kafka-axon-example
+    defaulttopic: payment_topic
+    producer:
+      retries: 0
+      bootstrapservers: localhost:9092
+      event-processor-mode: subscribing
+    consumer:
+      group-id: "local.event.consumer-group"
+      event-processor-mode: subscribing
+
+    properties:
+      security.protocol: PLAINTEXT

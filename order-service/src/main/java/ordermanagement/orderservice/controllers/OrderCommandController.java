@@ -1,4 +1,4 @@
-package progressivecoder.ordermanagement.orderservice.controllers;
+package ordermanagement.orderservice.controllers;
 
 import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import progressivecoder.ordermanagement.orderservice.dto.commands.OrderCreateDTO;
-import progressivecoder.ordermanagement.orderservice.services.commands.OrderCommandService;
+import ordermanagement.orderservice.dto.commands.OrderCreateDTO;
+import ordermanagement.orderservice.services.commands.OrderCommandService;
 import java.util.concurrent.CompletableFuture;
 
 @RestController

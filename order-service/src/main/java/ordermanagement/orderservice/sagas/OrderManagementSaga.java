@@ -1,11 +1,11 @@
-package progressivecoder.ordermanagement.orderservice.sagas;
+package ordermanagement.orderservice.sagas;
 
+import ordermanagement.orderservice.aggregates.OrderStatus;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.modelling.saga.SagaEventHandler;
 import org.axonframework.modelling.saga.SagaLifecycle;
 import org.axonframework.modelling.saga.StartSaga;
 import org.axonframework.spring.stereotype.Saga;
-import progressivecoder.ordermanagement.orderservice.aggregates.OrderStatus;
 
 import javax.inject.Inject;
 import progressivecoder.ecommerce.commands.CreateInvoiceCommand;

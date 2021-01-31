@@ -1,4 +1,4 @@
-package progressivecoder.ordermanagement.orderservice.dto.commands;
+package ordermanagement.orderservice.dto.commands;
 
 import java.math.BigDecimal;
 

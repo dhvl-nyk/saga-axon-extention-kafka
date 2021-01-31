@@ -1,4 +1,4 @@
-package progressivecoder.ordermanagement.orderservice.aggregates;
+package ordermanagement.orderservice.aggregates;
 
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;

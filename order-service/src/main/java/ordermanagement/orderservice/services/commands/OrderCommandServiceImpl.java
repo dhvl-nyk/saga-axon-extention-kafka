@@ -1,11 +1,11 @@
-package progressivecoder.ordermanagement.orderservice.services.commands;
+package ordermanagement.orderservice.services.commands;
 
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.stereotype.Service;
 
 import progressivecoder.ecommerce.commands.CreateOrderCommand;
-import progressivecoder.ordermanagement.orderservice.aggregates.OrderStatus;
-import progressivecoder.ordermanagement.orderservice.dto.commands.OrderCreateDTO;
+import ordermanagement.orderservice.aggregates.OrderStatus;
+import ordermanagement.orderservice.dto.commands.OrderCreateDTO;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 

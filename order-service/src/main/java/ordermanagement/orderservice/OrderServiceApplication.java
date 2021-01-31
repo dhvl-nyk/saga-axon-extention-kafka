@@ -1,4 +1,4 @@
-package progressivecoder.ordermanagement.orderservice;
+package ordermanagement.orderservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
